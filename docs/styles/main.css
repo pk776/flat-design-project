@@ -138,3 +138,31 @@ a:hover {
 }
 
 /*# sourceMappingURL=main.css.map */
+.shape-examples {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.shape {
+  background-color: #3498DB;
+}
+
+.shape--square {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.shape--circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.shape--pill {
+  width: 80px;
+  height: 32px;
+  border-radius: 16px;
+}
+
