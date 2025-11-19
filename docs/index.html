@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flat Design Principles</title>
-    <link rel="stylesheet" href="../styles/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flat Design Project</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
-    <!-- Sticky Navigation -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="timeline.html">Timeline</a></li>
-                <li><a href="people.html">People</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h1>Welcome to Flat Design</h1>
-            <p>Flat design is a minimalist design approach that emphasizes usability and simplicity. It focuses on clean, bold visuals without distractions, allowing users to engage with content more effectively.</p>
-            <p>Explore the principles of flat design and discover how it can enhance your projects:</p>
-            <ul>
-                <li><strong>Simple:</strong> Design without distractions.</li>
-                <li><strong>Clean:</strong> Clarity through simplicity.</li>
-                <li><strong>Bold:</strong> Bright, bold, and usable.</li>
-                <li><strong>Modern:</strong> Flat is functional.</li>
-                <li><strong>Vibrant:</strong> Less noise, more focus.</li>
-            </ul>
-        </section>
-    </main>
+  <nav class="nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="components.html">Components</a></li>
+        <li><a href="people.html">People</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2023 Flat Design. All rights reserved.</p>
-        <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-    </footer>
+  <main class="container">
+    <section class="card">
+      <h1>Design without distractions</h1>
+      <p>Bright, bold, and usable — flat design prioritizes clarity and function using simple geometry and solid color.</p>
+      <a class="btn btn-primary" href="about.html">Learn More</a>
+    </section>
+
+    <section class="grid grid--3">
+      <div class="card">
+        <h3>Clarity</h3>
+        <p>Clear hierarchy and focused content remove distractions.</p>
+      </div>
+      <div class="card">
+        <h3>Bold Color</h3>
+        <p>Solid fills for instant signals — no gradients or shadows.</p>
+      </div>
+      <div class="card">
+        <h3>Simple Shapes</h3>
+        <p>Rectangles, circles, consistent 4px radius and 12‑column grid.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Flat Design Project</p>
+  </footer>
+
 </body>
 </html>

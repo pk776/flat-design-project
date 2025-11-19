@@ -1,0 +1,32 @@
+{
+  "name": "flat-design-project",
+  "version": "1.0.0",
+  "description": "Welcome to the Flat Design Site! This project is dedicated to exploring the principles and history of flat design, a modern design approach that emphasizes simplicity and functionality.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "start": "live-server docs",
+  "build-css": "sass docs/styles/main.scss docs/styles/main.css",
+  "postcss": "postcss docs/styles/main.css -o docs/styles/main.css"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk776/flat-design-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pk776/flat-design-project/issues"
+  },
+  "homepage": "https://github.com/pk776/flat-design-project#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "live-server": "^1.2.0",
+    "postcss": "^8.5.6",
+    "sass": "^1.94.1"
+  }
+}
